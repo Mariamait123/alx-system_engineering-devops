@@ -1,1 +1,2 @@
-first task add 'pwd' in a file
+#!/bin/bash
+first task add "pwd"
