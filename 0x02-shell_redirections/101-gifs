@@ -1,2 +1,2 @@
 #!/bin/bash
-finf -name '*gif'- -type f -printf '%f\n' | lc_all=c sort -f | rev | cut -c 5i | rev
+finf -name '*gif'- -type f -printf '%f\n' | LC_ALL=C sort -f | rev | cut -c 5i | rev
